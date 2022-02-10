@@ -1,0 +1,44 @@
+.profile {
+  padding: 4rem 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .page-title {
+      p {
+        font-weight: bold;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+
+        i {
+          margin-right: 1rem;
+        }
+      }
+    }
+
+    .page-action {
+      button {
+        padding: 1rem 2rem;
+        background-color: $color--accent;
+        border: none;
+        color: #fff;
+        outline: none;
+        border-radius: 2.5rem;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        i {
+          margin-right: 0.5rem;
+        }
+
+        &:hover {
+          background-color: darken($color--accent, 20%);
+        }
+      }
+    }
+  }
+}

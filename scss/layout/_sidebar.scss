@@ -1,0 +1,44 @@
+.sidebar {
+  width: 30rem;
+  background-color: $color--secondary;
+  height: 100vh;
+  // position: fixed;
+
+  &__logo {
+    text-align: center;
+    border-bottom: 0.1rem solid #fff;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 36px;
+      text-align: center;
+      margin: 20px 0;
+      display: inline-block;
+    }
+  }
+
+  &__navigation {
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    &__tab {
+      border-bottom: 0.1rem solid #fff;
+
+      a {
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        font-size: 1.8rem;
+        padding: 20px 0;
+      }
+
+      i {
+        margin-right: 10px;
+        margin-left: 20px;
+      }
+    }
+  }
+}
